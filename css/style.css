@@ -386,7 +386,7 @@ aside {
 
 }
 
-@media screen and (min-width: 600px) and (max-width: 800px) {
+@media screen and (min-width: 600px) and (max-width: 1023px) {
     .hidden {
         display: none;
     }
@@ -459,3 +459,22 @@ aside {
     }
 
 }
+
+@media only screen and (min-width: 1024px) {
+
+    .imgport{
+        height: 110px;
+        width: 200px;
+        -webkit-transition: -webkit-transform .5s ease;
+        transition: transform .5s ease;
+    }
+    .imgport:hover {
+        cursor: pointer;
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    /* .hidden{
+        display: none;
+    }
+} */
