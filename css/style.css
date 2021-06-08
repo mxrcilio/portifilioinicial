@@ -509,6 +509,19 @@ aside {
     
     /*  */
 
+    #btn-port{
+       height: 50px;
+       border-radius: 5px;
+       display: flex;
+       align-items: center;
+    }
+
+    #btn-port>a{
+        font-size: 20px;
+    }
+
+    /*  */
+
     .subtexto>h1{
        text-transform: uppercase;
     }
