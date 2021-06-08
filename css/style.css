@@ -492,6 +492,9 @@ aside {
         -webkit-transform: scale(1.2);
         transform: scale(1.2);
     }
+    h1{
+        font-size: 40px;
+    }
 
     h2{
         font-size: 30px;
@@ -505,8 +508,6 @@ aside {
     }
     
     /*  */
-
-    .subtexto
 
     .subtexto>h1{
        text-transform: uppercase;
@@ -529,7 +530,28 @@ aside {
         font-size: 50px;
         margin-right: 10px;
     }
+
+    /*  */
  
+    .footer>h1{
+        font-size: 35px;
+    }
+
+    .fa-github-square{
+        font-size: 60px;
+    }
+
+    .fa-linkedin{
+        font-size: 60px;
+    }
+
+    .btnfoot{
+        height: 50px;
+    }
+
+    .btnfoot>a{
+        font-size: 22px;
+    }
  
  
 
